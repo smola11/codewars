@@ -1,12 +1,11 @@
 package kyu4;
 
-import org.assertj.core.api.Assert;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 
 import static java.util.stream.Collectors.joining;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class SnailTest {
 
